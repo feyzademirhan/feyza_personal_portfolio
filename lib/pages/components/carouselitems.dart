@@ -1,6 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:feyportfolio/model/carousel_item_model.dart';
-import 'package:feyportfolio/model/social_media_bar.dart';
+import 'package:feyportfolio/pages/components/social_media_bar.dart';
 import 'package:feyportfolio/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -12,7 +12,7 @@ List<CarouselItemModel> carouselItems = List.generate(
     space: SizedBox(height: 40),
     text: Row(
       children: [
-        SocialMediaBar(),
+        const SocialMediaBar(),
         Container(
           padding: const EdgeInsets.only(left: 12),
           child: Column(

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ScreenHelper extends StatelessWidget {
+
   final Widget mobile;
   final Widget tablet;
   final Widget desktop;

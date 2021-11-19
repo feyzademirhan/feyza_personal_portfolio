@@ -1,5 +1,4 @@
 import 'package:feyportfolio/model/stats.dart';
-import 'package:feyportfolio/pages/components/first_app_ad.dart';
 import 'package:feyportfolio/utils/constants.dart';
 import 'package:feyportfolio/utils/screen_helper.dart';
 import 'package:flutter/material.dart';
@@ -89,7 +88,6 @@ class Projects extends StatelessWidget {
           height: 1,
         ),
         const SizedBox(height: 20),
-        FirstAppAd(),
         const SizedBox(height: 100),
       ],
     );
